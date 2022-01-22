@@ -14,7 +14,7 @@ For building this ```API```, I used ```sklearn```, ```pandas```, ```numpy``` and
 
 https://bookrecommenderapi.herokuapp.com/
 
-# Endpints
+# Endpoints
 - ```api/books/all``` - returns all books 
 - ```api/books?title=BookTitle``` - returns the book (or multiple books) based on search. If not found then returns empty ```JSON``` array
 - ```api/books/recommend?title=BookTitle``` returns ```JSON ARRAY``` recommended books based on searched book.
